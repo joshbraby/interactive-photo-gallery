@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	padding: 2rem;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+header input {
+	width: 28.75rem;
+	padding: 0.65rem;
+	font-size: 1rem;
+	border: .125rem solid #d9d9d9;
+	border-radius: .4rem;
+}
+
+.container {
+	width: 65rem;
+	margin: 0 auto;
+	margin-top: 6.75rem;
+}
+
+.container div {
+	width: 12.5rem;
+	display: inline-block;
+	margin: 0 1.75rem 2.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: #4d4d4d;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 1000;
+}
+
+.overlay div {
+	width: 65%;
+	margin: 1rem auto;
+}
+
+.fa-arrow-circle-o-left {
+	position: relative;
+	color: #f2f2f2;
+	top: 16rem;
+	left: 8rem;
+}
+
+.fa-arrow-circle-o-right {
+	position: relative;
+	color: #f2f2f2;
+	top: 16rem;
+	left: 63rem;
+}
+
+.overlay p {
+	color: #fff;
+	width: 37.5rem;
+	margin: 0 auto;
+}
