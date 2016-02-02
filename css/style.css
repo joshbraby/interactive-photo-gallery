@@ -66,15 +66,15 @@ footer {
 .fa-arrow-circle-o-left {
 	position: relative;
 	color: #f2f2f2;
-	top: 16rem;
-	left: 8rem;
+	top: 20rem;
+	left: 10%;
 }
 
 .fa-arrow-circle-o-right {
 	position: relative;
 	color: #f2f2f2;
-	top: 16rem;
-	left: 63rem;
+	top: 20rem;
+	left: 82%;
 }
 
 .overlay p {
